@@ -50,8 +50,8 @@ jobs:
         name: artifacts
     - name: Deploy to CloudHub
       env:
-        USERNAME: xinwang97
-        PASSWORD: Wxa266368*
+        USERNAME: ${your username}
+        PASSWORD: ${your password}
       run: |
         artifactName=$(ls *.jar | head -1)
         mvn mule:deploy -Dmule.artifact=$artifactName -Danypoint.userName="$USERNAME" -Danypoint.password="$PASSWORD"
