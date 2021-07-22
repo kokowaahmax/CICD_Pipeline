@@ -1,0 +1,15 @@
+http:
+  port: "8081"
+  
+app:
+  runtime: "4.3.0"
+
+username: "abhiraj_cat"
+password: "Omkarmama.1Prasadkane.1"
+cloudhub:
+  application:
+    name: "helloWorld"
+enviroment: "Sandbox"
+region: "us-east-2"
+workers: "1"
+workerType: MICRO
